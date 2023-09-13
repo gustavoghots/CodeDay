@@ -10,16 +10,15 @@
     <h1>Controle de frotas Conda Hivic</h1>
   </div>
   <div class="login">
-    <p>Escolha o tipo de login:</p>
+    <p>Escolha seu tipo de login:</p>
     <ul>
-        <li><a href="login-admin.html">Administrador</a></li>
-        <li><a href="login-usuario.html">Usuário</a></li>
-        <li><a href="login-motorista.html">Motorista</a></li>
+        <li><a class="a1" href="login-admin.php">Administrador</a></li>
+        <li><a href="login-usuario.php">Usuário</a></li>
+        <li><a href="login-motorista.php">Motorista</a></li>
     </ul>
   </div>
   <div class="rodape">
-    <h3>Fale conosco!</h3>
-    <p>Ouvidoria principal +55 98478-0561</p>
+  <p>Conda Hivic ©, desde 1997</p>  
   </div>
     </div>
 </body>
