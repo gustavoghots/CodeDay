@@ -40,9 +40,12 @@ create table Viagem(
 );
 
 create view dados_usuario as
-select nome, tipo
+select nome, tipo, email
 from usuario;
 
 create view dados_veiculo as
 select placa, km_rodado, manutencao
 from veiculo;
+
+select *
+from usuario;
