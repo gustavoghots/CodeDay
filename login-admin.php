@@ -32,6 +32,8 @@ include_once "CRUD_usuario.php";
 $nome  = @$_POST['nome'];
 $email = @$_POST['user'];
 $senha = @$_POST['senha'];
+if(isset($_POST['nome'])){
+  createUsuario($con,$nome,$senha,$email,3);
+}
 
-createUsuario($con,$nome,$senha,$email,3);
 ?>
