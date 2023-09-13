@@ -1,8 +1,13 @@
-body, html {
+* {
+  box-sizing: border-box;
+}
+  body, html {
     margin: 0;
     padding: 0;
     height: 100%;
   }
+
+
   .mae {
     display: flex;
     flex-direction: column;
@@ -15,18 +20,65 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: beige;
     width: 100%;
-
+    height: 10%;
+    border-bottom: 5px groove #CC0000;
   }
   .rodape {
-    background-color: lightblue;
-
+    background-color: beige;
+    width: 100%;
+    height: 10%;
+    font-weight: bold;
+    border-top: 5px groove #CC0000;
   }
   
   .login {
     background-color: beige;
+    width: 20%;
+    height: 40%;
+    border: 5px groove #CC0000;
+    }
+  .login p {
+    font-weight: bold;
+    text-align: center;
   }
+  .login ul {
+    list-style-type: none;
+  }
+  .login ul li {
+    margin-top: 35px;
+  }
+  .login ul li a{ 
+    color: #CC0000;
+    border: 1px solid #CC0000;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .login ul li a:hover {
+    text-decoration: underline;
+  }
+  .login label {
+    color: #CC0000;
+    padding: 8px;
+  }
+  .login input {
+    margin-left: 5px;
+  }
+  .login input[type=submit] {
+    background-color: white;
+    border: 2px groove #CC0000;
+    color: #CC0000;
+    width: 83%;
+    height: 12%;
+  }
+  .login input[type=submit]:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
   h1 {
     margin: 0;
   }
