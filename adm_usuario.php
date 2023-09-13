@@ -1,5 +1,15 @@
 <html>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="estilosif.css">
+</head>
+<body>
+    <div class="mae">
+  <div class="cabecalho">
+    <h1>Controle de frotas Conda Hivic</h1>
+  </div>
+  <div class="login">
         <form action="" method="post">
             <label>Nome</label><br>
             <input type="text" name="nome" id="nome" value="" required><br><br>
@@ -14,8 +24,14 @@
             <input type="submit" name="update" value="Atualizar">
             <input type="submit" name="delete" value="Excluir">
         </form>
-    </body>
+  </div>
+  <div class="rodape">
+  <p>Conda Hivic ©, desde 1997</p>  
+  </div>
+    </div>
+</body>
 </html>
+
 <?php
     include_once 'CRUD_usuario.php';
     if(isset($_POST['insert'])){
