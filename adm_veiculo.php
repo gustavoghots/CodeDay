@@ -28,7 +28,7 @@
 </body>
 </html>
 <?php
-    include_once 'CRUD_usuario.php';
+    include_once 'CRUD_veiculo.php';
     if(isset($_POST['insert'])){
         createVeiculo($con,$_POST['placa'],$_POST['manutencao']);
     }
