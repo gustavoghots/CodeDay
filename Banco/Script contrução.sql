@@ -49,3 +49,5 @@ from veiculo;
 
 select *
 from usuario;
+
+update usuario set nome='Gustavo' where nome = 'everton';
